@@ -1,0 +1,168 @@
+/* This is first page CSS file */
+
+
+html, body {
+    margin: auto;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color:#fdf0d5;
+    user-select: none;
+}
+
+.star{
+margin: 10px;
+width: 30px;
+height: 30px;
+}
+
+.heart{
+width: 30px;
+height: 30px;
+margin: 10px;
+}
+
+.points{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+.level{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin:auto;
+}
+
+.pointAndLevel-container{
+display: flex;
+justify-content: space-between;
+margin:0 auto;
+}
+
+h3{
+font-family: 'Rubik', sans-serif;
+text-align: center;
+font-weight: 15px;
+color:#565264;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: auto;
+}
+
+.selec-container {
+
+display: flex;
+justify-content: space-around;
+
+}
+
+.selec-btn {
+
+    font-family: 'Rubik', sans-serif;
+    width: 180px;
+    color: #fdfcdc;
+    font-size: 16px;
+    background-color: #F2C36E;
+    height: 40px;
+    border: 1px solid #7f5539;
+    border-radius: 5px;
+   
+}
+
+img{
+    width:200px;
+    height:200px;
+    margin: 20px auto 0px auto;
+}
+h2{
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    font-size:25px;
+    color: #257EF2;
+}
+
+input {
+    font-family: 'Rubik', sans-serif;
+    color: #495057;
+    font-size: 15px;
+    background-color: #FCF5EB;
+    width: 192px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #7f5539;
+    border-radius: 5px;
+    margin: 10px auto;
+    
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+    width: 200px;
+    color: #fdfcdc;
+    font-size: 15px;
+    background-color: #F2C36E;
+    height: 40px;
+    border: 1px solid #7f5539;
+    border-radius: 5px;
+    margin: auto;
+}
+
+button:hover{
+    background: #b08968;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    background-color: #fdf0d5;
+    color: #495057;
+    font-size: 15px;
+    padding: 8px;
+    height: 20px;
+    width: 80%;
+    text-align: left;
+    margin: 5px auto;
+    border-radius: 8px;
+    border: 1px solid #7f5539;
+}
+
+li:hover{
+    background: #ffd670;
+    cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+
+.tag-container {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+}
+
+.myProfile {
+  background-color: #ef8354; 
+  color: #ffffff; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  text-decoration: none; 
+}

@@ -1,0 +1,62 @@
+/* This is my profile CSS file */
+
+html, body {
+    margin: 5px auto;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color:#fdf0d5;
+    user-select: none;
+}
+
+h2{
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    margin: 10px auto 0px auto;
+    font-size:25px;
+    color: #257EF2;
+}
+
+.myProfile{
+  background-color: #ef8354; 
+  color: #ffffff; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  text-decoration: none; 
+}
+
+.myProfile-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    margin: 5px auto;
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+    width: 70px;
+    color: #fdfcdc;
+    font-size: 15px;
+    background-color: #F2C36E;
+    height: 20px;
+    border: 1px solid #7f5539;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+img{
+margin:10px auto;
+}
+
+p{
+font-family: 'Rubik', sans-serif;
+text-align: center;
+font-weight: 15px;
+color:#565264;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+input{
+margin: auto;
+}

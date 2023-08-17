@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>To do</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Rubik&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+         <script type="text/javascript">
+        document.addEventListener("deviceready", onDeviceReady, false);
+        function onDeviceReady(){
+        console.log("Cordova environment is ready.");
+        }
+        </script>
+
+    </head>
+    <body>
+          <!-- Audio element to play the sound -->
+        <audio id="clickSound">
+            <source src="sound/click.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="updatePointsLevelSound">
+            <source src="sound/upgrade.wav" type="audio/mpeg">
+        </audio>
+        <audio id="winSound">
+            <source src="sound/win.wav" type="audio/mpeg">
+        </audio>
+
+        <!-- Link to my profile page -->
+       <div class="tag-container">
+           <a class="myProfile" href="profile.html" target="_blank">My Profile</a>
+        </div>
+
+       <!-- First page elements -->
+        <div class="container">
+            <img src="image/study.png">
+            <h2>Time for forcus</h2>
+            <div class = "pointAndLevel-container">
+                <div class="points">
+                    <h3>Points:</h3>
+                    <span id="pointsStar"></span><img class="star", src="image/star.png",alt="star">
+                </div>
+                <div class="level">
+                    <h3>level:</h3>
+                    <span id="levelHeart"></span><img class="heart", src="image/levelHeart.png",alt="love heart">
+                </div>
+            </div>
+            <div class="selec-container">
+                <button id="ownBtn"> MyTasks</button>
+                <button id="roomBtn"> RoommateTasks</button>
+            </div>
+            <ul id="own-toDo-list"></ul>
+            <ul id="roommate-toDo-list"></ul>
+            <input type="text" id="input-field" placeholder="To do">
+            <button id="add-button">Add</button>
+  
+        </div>
+        <script src="main.js" type="module"></script>
+         
+ 
+
+    
+ 
+    </body>
+</html>
